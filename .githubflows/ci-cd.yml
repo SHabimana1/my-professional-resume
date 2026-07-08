@@ -12,7 +12,7 @@ jobs:
     - name: Checkout the Code
       uses: actions/checkout@v7
     - name: Trivy  build_scan
-      uses: aquasecurity/trivy-action@v0.36.0
+      uses: aquasecurity/trivy-action@v0.28.0
       with:
         scan-type: 'fs'
         severity: HIGH,CRITICAL
