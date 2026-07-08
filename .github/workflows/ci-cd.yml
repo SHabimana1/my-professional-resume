@@ -6,7 +6,7 @@ on:
       branches: ['main']
 
 jobs:
- build_sacn:
+ build_scan:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the Code
